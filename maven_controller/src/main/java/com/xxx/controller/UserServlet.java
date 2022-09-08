@@ -22,5 +22,6 @@ public class UserServlet extends HttpServlet {
 
         //调用maven_service模块的方法
         UserService.testService();
+        System.out.pringIn("在GitHub上新建dev分支验证拉取操作。。。。。。。");
     }
 }
