@@ -22,5 +22,6 @@ public class UserServlet extends HttpServlet {
 
         //调用maven_service模块的方法
         UserService.testService();
+        System.out.println("分支操作。。。。。。。");
     }
 }
